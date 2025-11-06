@@ -1,0 +1,17 @@
+cd /path/to/project → go to your project folder
+
+git init → initialize Git locally
+
+git config --global user.name "Your Name" → sets your name (for commits)
+
+git config --global user.email "youremail@example.com" → sets your email
+
+git add . → stages all files for commit
+
+git commit -m "Initial commit" → creates the first commit
+
+git remote add origin https://github.com/username/repo-name.git → connects your local repo to the GitHub remote
+
+git branch -M main → ensures branch is named main
+
+git push -u origin main → pushes your commit to GitHub and sets the upstream
