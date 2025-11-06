@@ -1,0 +1,11 @@
+Set Git to always rebase when pulling:
+git config --global pull.rebase true
+
+Then you can just do:
+git pull
+git push
+
+and it keeps your branch in sync automatically.
+
+If you want, I can give you a single-line workflow that does pull → commit → push safely every time to avoid this error.
+Do you want me to do that?
