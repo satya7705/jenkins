@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Simple E-Commerce</title>
+</head>
+<body>
+<h1>Welcome to Simple E-Commerce!</h1>
+<h2>Products:</h2>
+<ul>
+    <li th:each="product : ${products}" th:text="${product}"></li>
+</ul>
+</body>
+</html>
