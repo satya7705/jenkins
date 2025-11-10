@@ -7,7 +7,7 @@
     <groupId>com.example</groupId>
     <artifactId>ecommerce-app</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>Simple E-Commerce App</name>
 
